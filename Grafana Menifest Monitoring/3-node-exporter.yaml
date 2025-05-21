@@ -60,4 +60,4 @@ spec:
     targetPort: 9100
   selector:
     app: node-exporter
-  clusterIP: 9100
+  # clusterIP: "9100"
